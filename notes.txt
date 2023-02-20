@@ -1,0 +1,76 @@
+span tag is an inline display element.
+img and anchor tags are also inline elements.
+We can't change the width of an inline element. But it can be done for the block elements.
+Advantages of inline and block elements:
+    1. Width of the inline elements can never be changed.
+    2. Block element doesn't allow any other element to sit just where it ends. It keeps the next element 
+    below where it completes. Or in other words, it takes the complete display of the webpage.
+    3. To take advantage of both the properties, we make the display inline-block.
+    4. One more :- display : none;(Which removes the element completely as if it wouldn't exitsed).
+    whereas visibility : hidden;(Which basically doesn't remove the element completely but it just that 
+    we can't see that and the height and width will be there.)
+
+Some important points:
+1. https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements
+2. https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements
+
+
+CSS Positioning:
+So, basically we have four types of positioning in general:
+position: static;(It is the basic flow of an HTML element.)
+position: relative;
+position: absolute;
+position: fixed;
+Fixed position simply means that when we scroll down to the page we want to keep a particular element at its own
+position just like for the navigation bars.
+Position relative simply means that all of the elements of the webpage will be on their own position but the element
+on which this particular property is applied gets changed to its position.
+Now after we write position: relative;
+                   left : 100px;
+it means the particular element is shifted 100px away from its original left border.
+so it will shift towards the right by 100px without affecting any other element.
+Similarly,
+                   top : 100px;
+it will simply push the element down by 100px without shifting any other element.
+
+Position absolute means we are moving the element relative to the parent element. It is generally done with
+the body as the parent element. But we can make any other element as the parent also and we can simply add that
+element as the parent element and we need to keep the position of parent element as relative to move the child
+element with respect to the parent element without affecting the parent element.
+
+To centerize the element, we use text-align: center; property
+but if we specify the width of the block element then it won't going to be centerized
+Then we need to use margin: 0 auto;(o for top and bottom auto for left and right which simply centerize the element)
+
+Font-families:
+So by default we have 5 font families that are:
+serif
+sans-serif
+cursive
+fantasy
+monospaced(used for coding where we want to treat each letter as same as other)
+
+But there are so many fonts and some of the fonts are installed on Windows OS some other on Mac OS but if we want
+so if we specify font-family : "Helvetica Neue",Helvetica,arial,sans-serif
+So we are saying if the user system has Helvetica Neue then display that
+if not then Helvetica
+if that not then arial
+and we are keeping font in the decreasing order of preferences.
+But due to different OS, every other people will have the other view of the page.
+So, to overcome that we have google fonts which is like a link to the HTML file which embedds the particular font
+if the user system has not that font installed or cached.
+
+Difference between different font size units:
+pixels(px), em, %, rem
+px is a static unit while all other units are dynamic units.
+So, if a user go to its browser settings and increases its font size by large or larger then the content specified
+in pixels does not get updated. It is static and it remains as same as it was previously.
+em is basically the width of english letter 'M'. 1em = 16px
+and 100% = 16px
+em are % are dynamic but the issue is that they get inherited. So, if we make the size of parent as 2 em
+then it will become 32px and when we specify 5.2rem in the child element then it will get added up in that
+and it becomes gigantic font. Similar applies with %.
+But in case of rem, we have benefit of both where it is dynamic and not get inherited. It is simply overridden
+by the child.
+1 rem = 16px
+

@@ -1,0 +1,112 @@
+body{
+    margin:0%;
+    text-align: center;
+    
+}
+h1,h3{
+    font-family: 'Pacifico', cursive;
+    margin: 0%;
+    font-size: 80px;
+}
+h3{
+    
+    font-size:20px;
+}
+p{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+}
+.set-position{
+    display: inline-block;
+    margin: 20px;
+}
+.img-design{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    background-color: white;
+}
+.big-image-design{
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    border-radius: 100%;
+}
+.my-image-design{
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+.skills{
+    font-size: 20px;
+    padding: 2%;
+}
+.formal{
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.skills-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background-color: white;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.new-position-1{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.new-position-3{
+    position: absolute;
+    top: 200px;
+    right: 100px;
+}
+.center-box{
+    position: relative;
+    width: 50%;margin: 0 auto;
+}
+.content-1{
+    line-height: 2;
+    padding-top: 10px;
+    position: relative;
+    top: 30px;
+}
+.content-2{
+    line-height: 2;
+    padding-top: 10px;
+    position: relative;
+    top: 50px;
+}
+.btn{
+    height: 40px;
+    width: 200px;
+    background-image: linear-gradient(to bottom right ,#A8FF3E,#68AF10 );
+    border: 0;
+    border-radius: 3%;
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 50cm;
+}
+.btn-link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.links{
+    margin-top: 20px;
+    height: 100px;
+    background-color: #A8FF3E;
+}
+.footer-links{
+    padding: 20px;
+    position: relative;
+    top: 30px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
